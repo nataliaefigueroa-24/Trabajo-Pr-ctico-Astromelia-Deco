@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+  
+        /* Colores principales */
+    --color-primary: #8A7C6F;
+    --color-secondary: #5C4E43;
+
+    /* Colores neutros */
+    --color-marfil: #F7F4EF;
+    --color-arena: #D8D0C7;
+    --color-greige: #B4A79A;
+
+    /* Colores de acento */
+    --color-salvia: #A8B2A1;
+    --color-terracota: #B98472;
+
+    --max-width: 1100px;
+    --font-heading: "Cormorant", serif;
+    --font-body: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: var(--color-arena);
+    color: var(--color-secondary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    font-family: var(--font-body);
+
+}
+h1,h2,h3{
+    font-family: var(--font-heading);
+
+}
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+ul{
+    list-style: none;
+    font-family: var(--font-body);
+}
+
+
+header{
+    background-color: var(--color-marfil);
+    padding: 1rem 2 rem;
+    position: sticky;
+    top:0;
+    z-index: 10;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+
+}
+.logo{
+    width: 200px;
+    height: auto;
+}
