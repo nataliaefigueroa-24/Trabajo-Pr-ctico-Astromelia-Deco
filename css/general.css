@@ -47,7 +47,8 @@ a{
 }
 ul{
     list-style: none;
-    font-family: var(--font-body);
+    font-family: var(--font-heading);
+    
 }
 
 
@@ -70,6 +71,56 @@ header{
 
 }
 .logo{
-    width: 200px;
+    width: 140px;
     height: auto;
+    margin: 1rem;
+  
+        
 }
+.navlist{
+    display: flex;
+    gap: 3rem;
+    font-size: 18px;
+    
+
+}
+.navlist a{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: colror 0.2s;
+
+}
+.navlist a,.Footer-nav li,.Footer-redes{
+ transition: colror 0.2s;
+
+}
+
+.Footer-nav li a:hover,.Footer-redes a :hover,.navlist li a:hover{
+    color: var(--color-greige);
+}
+
+footer{
+    background-color: var(--color-marfil);
+    color: var(--color-secondary);
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: auto;
+    font-weight: 600;
+    
+}
+.Footer-nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+margin-bottom: 1rem;
+}
+.Footer-redes{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
