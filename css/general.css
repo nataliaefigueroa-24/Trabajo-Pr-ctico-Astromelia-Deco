@@ -143,7 +143,7 @@ margin-bottom: 1rem;
     
 .btn-primario:hover{
      background-color: rgb(255, 255, 255);
-    transform:scale(1.o5)
+    transform:scale(1.05);
 }
    
     .btn-secundario{
@@ -163,3 +163,9 @@ margin-bottom: 1rem;
     margin:1rem 0;
 
 }
+.main-section{
+max-width: var(--max-width);
+    padding: 1rem 2 rem 3 rem;
+    margin: 0 auto 4rem auto
+}
+    
